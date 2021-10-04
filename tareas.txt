@@ -1,0 +1,6 @@
+EJERCICIO horario.php: Realizar un script que dependiendo del dia que sea me muestre el horario de 
+asignaturas del dia actual y dependiendo de la hora me diga la asignatura en la que estoy. 
+
+Si es fin de semana me indique el dia del fin de semana.
+
+FECHA MÁXIMA 11 DE OCTUBRE 23:59

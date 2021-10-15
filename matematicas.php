@@ -58,19 +58,41 @@ function persona($nombre,$edad){
 
     if ($edad%2==0) {
 
-        echo " y su edad es par";
+        echo " y su edad es par"."<br>";
 
         # code...
     } else{
 
-        echo "y su edad es impar";
+        echo "y su edad es impar"."<br>";
     }
+}
+#Función presentate
+function presenta($nombre,$apellidos,$localidad){
+
+    print "Mi nombre es ".$nombre." ".$apellidos. " y soy de ".$localidad."<br>";
+}
+
+
+
+function suma($num1,$num2){
+
+    $res= $num1 + $num2;
+
+    print "El resultado es ".$res."<br>";
 }
 
 persona("Miguel",25);
 persona("Manuel",23);
 persona("Adán",22);
 persona("Manule",257);
+
+presenta("Miguel","Bocachancla","Lora de Estepa");
+$prueba1=5;
+$prueba2=3;
+suma(3,2);
+suma(3,3);
+
+suma($prueba1,$prueba2);
 
 echo"<br>"."<br>"."<br>";
 
@@ -83,16 +105,7 @@ $selectAleatorio = rand(0,5);
 echo "El alumno es: ".$alumnos[$selectAleatorio]."<br>";
 
 
-$numero2="Buenas tardes";
 
-function esNumero($numero){
-
-if (is_int($numero)) {
-    echo "Es numero";
-} else {
-    echo "No es numero";
-}
-esNumero(3);
 ?>
 </body>
 </html>

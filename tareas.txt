@@ -4,3 +4,9 @@ asignaturas del dia actual y dependiendo de la hora me diga la asignatura en la 
 Si es fin de semana me indique el dia del fin de semana.
 
 FECHA MÁXIMA 11 DE OCTUBRE 23:59
+
+
+EJERCICIO cadenas.php: Realizar un script al que introduciendole un texto se pueda buscar, reemplazar, invertir y 
+contar los carácteres y las palabras del mismo. 
+
+FECHA MÁXIMA 04 DE NOVIEMBRE 23:59

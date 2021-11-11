@@ -1,0 +1,30 @@
+
+
+body{
+    background-color:hotpink; 
+    font-family: "Goldman";
+    font-size: 22px;
+}
+
+#principal{
+    color:yellow;
+}
+
+p{
+    background-color: yellow;
+    color:red;
+    opacity: 0.8;
+    border-style:groove;
+    border-color: blue;
+}
+br{
+    background-color: blue;
+}
+
+#ama{
+
+    color:yellow;
+}
+#re{
+    color:red;
+}

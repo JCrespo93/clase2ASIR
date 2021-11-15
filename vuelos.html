@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="vuelos.php" method="post" target="_blank">
+    <fieldset>
+
+      <legend>Gestión de vuelos</legend>
+
+      <fieldset>
+        <legend>Vuelo 1</legend>
+
+        Código:
+        <input type="text" name="infovuelo1[codigo1]" required />
+        <br />
+        Ciudad Origen:
+        <input type="text" name="infovuelo1[ciudadorigen1]" required />
+        <br />
+        Ciudad Destino:
+        <input type="text" name="infovuelo1[ciudaddestino1]" required />
+        <br />
+        Precio:
+        <input type="text" name="infovuelo1[precio1]" required />
+        <br />
+        Fecha Salida:
+        <input type="date" name="infovuelo1[fecha1]" required />
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Vuelo 2</legend>
+        Código:
+        <input type="text" name="infovuelo2[codigo2]" requiered/>
+        <br />
+        Ciudad Origen:
+        <input type="text" name="infovuelo2[ciudadorigen2]" required />
+        <br />
+        Ciudad Destino:
+        <input type="text" name="infovuelo2[ciudaddestino2]" required />
+        <br />
+        Precio:
+        <input type="text" name="infovuelo2[precio2]" required />
+        <br />
+        Fecha Salida:
+        <input type="date" name="infovuelo2[fecha2]" required />
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Herramientas</legend>
+
+        <select name="herramienta">
+          <option value="union">Unir vuelos</option>
+          <option value="diff">Diferencia entre vuelos</option>
+          <option value="sort">Ordena vuelos</option>
+          <option value="intersec">Información común entre vuelos</option>
+        </select>
+      </fieldset>
+    </fieldset>
+    <input type="submit" value="Guardar datos" />
+    <input type="reset" value="Resetear datos" />
+</form>
+  </body>
+</html>

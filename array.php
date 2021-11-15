@@ -136,13 +136,32 @@ print $coches3[]="Ferrari";
 print_r($coches3);
 echo "<br>";
 
-
 //Copiar matrices
 
 $copiaCapitales = $capitales;
 $copiaCapitales["Andalucia"]="Córdoba";
 print_r($copiaCapitales);
 echo "<br>";
+
+$colores1=["Verde","Azul","Amarillo","Rojo"];
+$colores2=["Verde","Azul","Amarillo","Rojo","Blanco"];
+echo "<br>";
+
+$resultadoDiferencia= array_diff($colores2,$colores1);
+$resultadoUnion=array_merge($colores2,$colores1);
+$resultadoInterseccion=array_intersect($colores2,$colores1);
+
+array_push($colores2,"Púrpura","Marrón","Celeste");
+sort($colores2);
+print_r($resultadoDiferencia);
+echo "<br>";
+print_r($resultadoUnion);
+echo "<br>";
+print_r($resultadoInterseccion);
+echo "<br>";
+print_r($colores2);
+echo "<br>";
+print_r($colores2);
 
 
 ?>

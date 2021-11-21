@@ -43,13 +43,12 @@ if(isset($_POST["infovuelo1"]) && isset($_POST["infovuelo2"])){
         print_r($resDiff);     
     }
 
-    function ordenaVuelos($infov1,$infov2){
+    function ordenaVuelos($infov1){
 
-        $resOrdena=array_merge($infov1,$infov2);
         echo "<b>Datos de los vuelos ordenado: </b>";
-        sort($resOrdena);
-        
-        
+        sort($infov1);
+        print_r($infov1);
+       
     }
     
     function intersecVuelos($infov1,$infov2){

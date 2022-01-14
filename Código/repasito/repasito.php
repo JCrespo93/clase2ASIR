@@ -1,6 +1,13 @@
 <?php
 
 
+echo GRAVEDAD;
+echo "Laa vida sigue";
+
+
+
+
+/* 
 #CONSTANTES
 
 $pi=pi();
@@ -170,6 +177,6 @@ for ($i=0; $i < ; $i++) {
     # code...
 }
 
-
 */
+
 ?>

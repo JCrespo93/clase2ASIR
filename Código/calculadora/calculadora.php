@@ -1,5 +1,6 @@
 <?php 
 include 'funciones.php';
+require "valida.php";
 
 #Recogida de datos
 
@@ -7,7 +8,7 @@ $num1=$_POST["operando1"];
 $num2=$_POST["operando2"];
 $selector=$_POST["operador"];
 
-
+compruebaNegativos($num1,$num2);
 
 switch ($selector) {
     case 'suma':
